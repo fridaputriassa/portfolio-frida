@@ -225,8 +225,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function downloadResume() {
         const link = document.createElement('a');
-        link.href = 'docs/cv-frida.pdf';
-        link.download = 'cv-frida.pdf';
+        link.href = 'docs/CV_Frida Putriassa.pdf';
+        link.download = 'CV_Frida Putriassa.pdf';
         document.body.appendChild(link);
         link.click();
         document.body.removeChild(link);
@@ -341,4 +341,3 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 });
-
